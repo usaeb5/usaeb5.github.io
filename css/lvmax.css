@@ -1,0 +1,262 @@
+/* Navbar CSS */
+.navbar {
+	background-color: black;
+	border-bottom: 0px;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top li a {
+	color:red;
+}
+
+ul.nav {
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 30px;
+	padding: 20px 0px;
+}
+
+ul.nav li {
+	border-right: 1px solid white;
+}
+
+
+
+
+
+
+
+
+/* Home Carousel */
+.carousel-caption {
+	margin-bottom:200px;
+}
+
+.jumbotron {
+	padding-top:300px;
+	padding-bottom:300px;
+	margin-bottom:0px;
+	background-color: white;
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+/* Home Text */
+.jumbotron h1 {
+	color: red;
+	font-size: 100px;
+	font-weight: 900;
+}
+.jumbotron p {
+	color: black;
+	font-size: 50px;
+	font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+/* Home Lower */
+#welcome {
+	background-color: #b0b0b0;
+}
+
+.row {
+	text-align:center;
+	font-family: 'Pathway Gothic One', sans-serif;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.row img {
+	width: 300px;
+	height: 200px;
+}
+
+.row img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.row h2 {
+	color: red;
+}
+
+.row p {
+	color: white;
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+/* About Accordion */
+button.accordion {
+    background-color: #b0b0b0;
+    color: red;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    transition: 0.4s;
+    color: #f3f000;
+}
+
+div.panel {
+    padding: 0 20px;
+    background-color: none;
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+	font-size: 20px;
+	text-align: left;
+}
+
+div.panel.show {
+    display: block !important;
+    opacity: 1;
+    max-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+/* Text Overview */
+#people, #about, #projects, #careers, #contact {
+	background-color: white;
+}
+
+#history {
+	background-color: #b0b0b0;
+}
+
+#samples {
+	background-color: white;
+}
+
+.starter-template, .starter-template1, .info1 {
+	margin-top: 100px;
+	margin-bottom: 80px;
+	font-family: 'Crimson Text', serif;
+}
+
+.box {
+	font-family: 'Crimson Text', serif;	
+	background-color: white;
+	padding-left:10px;
+	margin-bottom: 20px;
+}
+
+.examples {
+	color: black;
+	font-size: 21px;
+}
+
+
+
+
+
+
+
+
+
+/* Text Heading */
+.starter-template h1 {
+	color: black;
+}
+
+.starter-template1 h1, .box h1, .info2 h1 {
+	color: black;
+	padding-bottom: 20px;
+	border-bottom: 2px solid black;
+}
+
+.projects1 h1, .careers1 h1, .contact1 h1 {
+	padding-bottom: 20px;
+	border-bottom: 2px solid black;
+}
+
+
+
+
+
+
+
+/* Text Paragraph */
+.starter-template p, .starter-template1 p, .projects1 p, .info2 p, .contact1 p {
+	color: #76777c;
+}
+
+.box p {
+	color: black;
+	font-size: 21px;
+}
+
+
+
+
+
+
+
+
+/* About Mission */
+.col-md-8 {
+	margin-left: 80px;
+	margin-bottom: 40px;
+}
+
+.col-md-8 h1 {
+	padding-bottom: 20px;
+	border-bottom: 2px solid black;
+}
+
+.col-md-3 {
+	margin-top: 50px;
+	margin-bottom: 40px;
+	list-style-type: none;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	color: red;
+}
+
+
+
+
+
+
+
+
+/* Footer CSS */
+footer {
+	padding-top:100px;
+	background-color: black;
+	padding-left: 50px;
+}
+
+footer h1{
+	color: red;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 20px;
+}
